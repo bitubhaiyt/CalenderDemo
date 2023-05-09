@@ -1,0 +1,299 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:transparent;
+	width:350px;
+	text-align:center;
+}
+article {
+	word-wrap: break-word;
+	padding: 2px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	background-color:transparent;
+	 -moz-box-shadow: 0px 5px 12px rgba(000,000,000,0.5);
+	 -webkit-box-shadow:0px 5px 12px rgba(000,000,000,0.5);
+	 box-shadow:0px 5px 12px rgba(000,000,000,0.5);
+}
+table {
+   text-align:center;
+   width:99%;
+   border-spacing:0;
+   border:2px solid green;
+   margin: 0;
+}
+td {
+   text-align:center;
+}
+
+div.scroll { 
+                margin:4px, 4px; 
+                padding:4px;  
+                height: 150px; 
+                overflow-x: hidden; 
+                overflow-x: auto; 
+                text-align:justify; 
+            } 
+#mm {
+     color:Maroon;
+	 background-color:Cyan;
+	 text-shadow:MediumSeaGreen 1px 1px 1px;
+	 font-size:20px;
+	 width:99%;
+	margin: 0;
+	padding: 0;
+}
+
+#xy {
+   font-size:9px;
+   color:Teal;
+}
+
+#teal {
+     background-color:teal;
+}
+#green {
+     background-color:green;
+}
+#borderright {
+     border-right:2px solid teal;
+}
+#bordertop {
+     border-top:2px solid teal;
+}
+#borderleft {
+     border-left:2px solid teal;
+}
+#bottomright {
+      border-bottom:2px solid teal;
+	  border-right:2px solid teal;
+}
+#bottomrighttop {
+      border-bottom:2px solid teal;
+	  border-right:2px solid teal;
+	  border-top:2px solid teal;
+}
+#borderall {
+      border-bottom:2px solid teal;
+	  border-right:2px solid teal;
+	  border-top:2px solid teal;
+	  border-left:2px solid teal;
+}
+
+#sunday {
+     background-color:#FF1493;
+	 border-top:2px solid teal;
+	 border-bottom:2px solid teal;
+	 border-right:2px solid teal;
+}
+#satur {
+     background-color:#FFDAB9;
+	 border-top:2px solid teal;
+	 border-bottom:2px solid teal;
+}
+#days {
+    background-color:#FFDAB9;
+	border-top:2px solid teal;
+	border-bottom:2px solid teal;
+	border-right:2px solid teal;
+}
+
+#aa, #ab, #ac, #ad, #ae, #af, #ag, #ah, #ai, #aj, #ak, #al, #am, #an, #ao, #ap, #aq, #ar, #as, #at, #au, #av, #aw, #ax, #ay, #az,
+#ba, #bb, #bc, #bd, #be, #bf, #bg, #bh, #bi {
+	margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+}
+#kb {
+	margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:45px;
+	font-size:20px;
+}
+#k {
+	margin: 0;
+	padding: 0;
+	background-color:#FFDAB9;
+	height:20px;
+	font-size:20px;
+}
+#aa, #ah, #ao, #av, #bc, #aba, #aca, #ada, #aea, #afa, #aga, #aia, #aja, #aka, #ala, #ama, #ana, #apa, #aqa, #ara, #asa, #ata, #aua, #awa, #axa, #aya, #aza,
+#baa, #bba, #bda, #bea, #bfa, #bga, #bha, #bia {
+   color:red;
+   margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+}
+#abg, #acg, #adg, #aeg, #afg, #agg, #aig, #ajg, #akg, #alg, #amg, #ang, #apg, #aqg, #arg, #asg, #atg, #aug, #awg, #axg, #ayg, #azg,
+#bag, #bbg, #bdg, #beg, #bfg, #bgg, #bhg, #big {
+   color:green;
+   margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+}
+#amba {
+     background-image : url("https://upload.wikimedia.org/wikipedia/commons/9/97/Amabsya.png");
+	 background-repeat: no-repeat;
+	 margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+	color:red;
+}
+#prna {
+     background-image : url("https://upload.wikimedia.org/wikipedia/commons/d/d3/Purnima.png");
+	 background-repeat: no-repeat;
+	 margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+	color:red;
+}
+#amb {
+     background-image : url("https://upload.wikimedia.org/wikipedia/commons/9/97/Amabsya.png");
+	 background-repeat: no-repeat;
+	 margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+}
+#prn {
+     background-image : url("https://upload.wikimedia.org/wikipedia/commons/d/d3/Purnima.png");
+	 background-repeat: no-repeat;
+	 margin: 0;
+	padding: 0;
+	background-color:transparent;
+	width:45px;
+	height:62px;
+	font-size:20px;
+}
+.tooltip {
+   position: relative;
+   display: inline-block;
+}
+.tooltip .tooltiptext {
+   visibility: hidden;
+   width: 200px;
+   background-color: #555;
+   color: Azure;
+   text-align: center;
+   border-radius: 6px;
+   padding: 0px 0;
+   position: absolute;
+   z-index: 0;
+   bottom: 125%;
+   margin-left: 0px;
+   opacity: 0;
+   transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+}
+#holya {
+   left: 0%;
+}
+#holyb {
+   left: -70%;
+}
+#holyc {
+   left: -400%;
+}
+#kc {
+	margin: 0;
+	padding: 0;
+	width:310px;
+	height:45px;
+	font-size:20px;
+	color:Cyan;
+	background-color:green;
+}
+#kd {
+	margin: 0;
+	padding: 0;
+	width:90px;
+	height:45px;
+	font-size:20px;
+	color:Cyan;
+	background-color:green;
+}
+#li {
+	margin: 0;
+	padding: 0;
+	width:80%;
+	font-size:20px;
+	color:Cyan;
+	background-color:green;
+	text-align:center;
+}
+#ke {
+	margin: 0;
+	padding: 0;
+	width:135px;
+	height:45px;
+	font-size:20px;
+	color:Cyan;
+	background-color:green;
+}
+#g {
+	background-color:green;
+}
+#footerB {
+	background-color:green;
+	font-size:20px;
+	text-align:center;
+	color:Cyan;
+	text-shadow:black 1px 1px 1px;
+	width:99%;
+	margin: 0;
+	padding: 0;
+	}
+#header {
+	background-color:transparent;
+	font-size:20px;
+	text-align:center;
+	color:orange;
+	text-shadow:black 1px 1px 1px;
+	width:99%;
+	margin: 0;
+	padding: 0;
+	}
+#footer {
+	background-color:green;
+	font-size:20px;
+	text-align:center;
+	color:orange;
+	text-shadow:black 1px 1px 1px;
+	width:99%;
+	margin: 0;
+	padding: 0;
+	}
+.dropbtn {background-color: #4CAF50;color: white;padding: 16px;font-size: 16px;border: none;cursor: pointer;}
+.dropbtn:hover, .dropbtn:focus {background-color: #3e8e41;}
+#myInput {color:DarkRed;text-shadow:DarkSlateGray 1px 1px 1px;border-box: box-sizing;background-image: url('file:///D:/Calendar/New%20folder/Xobdoxondhan/Search.svg');background-position: 14px 12px;background-repeat: no-repeat;font-size: 16px;padding: 14px 20px 12px 45px;border: none;border-bottom: 1px solid #ddd;}
+#myInput:focus {outline: 3px solid #ddd;}
+.dropdown {position: relative;display: inline-block;}
+.dropdown-content {display: none;position: absolute;background-color: PowderBlue;min-width: 180%;max-height: 330px;overflow: auto;border: 1px solid #ddd;z-index: 1;}
+.dropdown-content a {font-size:20px;color: SaddleBrown;text-shadow:Chartreuse 1px 1px 1px;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown a:hover {background-color: #ddd}
+.show {display:block;}
